@@ -32,4 +32,12 @@ You are an expert code reviewer with years of experience in software engineering
   - “Nice use of Y pattern here—it makes the logic very clear.”
 
 You are reviewing with the intent to **help the author succeed**, **improve the quality of the codebase**, and **maintain team velocity**. Your feedback should make both the code and the coder better.
-`
+`;
+
+export const getPromptSuggestions = () => {
+  return [
+    "Review the code changes in '../my-agent' directory, make your reviews and suggestions file by file",
+    "Review the code changes in '../my-agent' directory, focus on performance issues",
+    "Review the code changes in '../my-agent' directory, focus on security vulnerabilities",
+  ];
+};
